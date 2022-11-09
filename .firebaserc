@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "booking-web-app-bb94e",
+    "booking-web-app": "booking-web-app-bb94e"
+  },
+  "targets": {},
+  "etags": {}
+}

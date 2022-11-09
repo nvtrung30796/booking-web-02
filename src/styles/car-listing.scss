@@ -1,0 +1,52 @@
+.carlisting {
+    display: none;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.search__box {
+    border: 1px solid #7c8a972f;
+    padding: 7px 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #fff;
+  }
+  
+  .search__box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+  }
+  
+  .search__box input::placeholder {
+    font-size: 0.8rem;
+  }
+  .search__box span i {
+    color: rgba(56, 54, 54, 0.555);
+    cursor: pointer;
+  }
+
+
+.select {
+  padding: 8px 12px;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+
+
+  &:hover, &:focus {
+        outline: none;
+        border: 1px solid #bbb
+  }
+
+  option {
+    background-color: #fff;
+  }
+}

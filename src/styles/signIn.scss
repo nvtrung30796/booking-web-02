@@ -1,0 +1,62 @@
+.form__container {
+    margin: 50px 0;
+
+
+
+
+    .fbBtn, .ggBtn {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #1877f2;
+        height: 45px;
+        border: none;
+        border-radius: 5px;
+    
+        img {
+            max-width: 27px;
+            margin-right: 10px;
+        }
+    
+        p {
+            color: #fff;
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+    }
+    
+    .or {
+       text-align: center;
+       padding-top: 10px;
+       font-weight: 550;
+    
+    }
+
+    .ggBtn {
+        background-color: #fff;
+        border: 1px solid rgb(147, 145, 145);
+        p {
+            color: #000;
+
+        }
+        img {
+            max-width: 25px;
+        }
+
+    }
+    small {
+        float: right;
+
+
+        .link {
+            text-decoration: none;
+        }
+    }
+}
+
+
+
+
+
